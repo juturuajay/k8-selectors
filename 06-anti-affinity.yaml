@@ -11,7 +11,7 @@ spec:
         nodeSelectorTerms:
         - matchExpressions:
           - key: hardware
-            operator: NotIn #anti-affinity
+            operator: NotIn #anti-affinity(opposite)
             values:
             - gpu
   containers:
